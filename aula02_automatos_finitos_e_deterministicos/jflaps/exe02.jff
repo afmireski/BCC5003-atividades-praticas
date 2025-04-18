@@ -18,19 +18,34 @@
 		</state>
 		<!--The list of transitions.-->
 		<transition>
-			<from>0</from>
-			<to>1</to>
-			<read>a,b</read>
+			<from>1</from>
+			<to>2</to>
+			<read>a</read>
 		</transition>
 		<transition>
 			<from>1</from>
 			<to>2</to>
-			<read>a,b</read>
+			<read>b</read>
 		</transition>
 		<transition>
 			<from>2</from>
 			<to>0</to>
-			<read>a,b</read>
+			<read>b</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>b</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>0</to>
+			<read>a</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>a</read>
 		</transition>
 	</automaton>
 </structure>
