@@ -1,1 +1,2 @@
 automata-lib[visual]
+automata_python
